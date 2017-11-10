@@ -21,7 +21,7 @@ Setup
 Configuration
 -------------
 
-All configuration is via environment variables.
+All configuration is via environment variables. [See the Now documentation for how to set environment variables.](https://zeit.co/docs/features/env-and-secrets)
 
 - `PORT`: Port for Now to bind to. Defaults to 80 (which is actually 443 since Now.sh upgrades traffic to SSL).
 - `BOOT`: Comma separated list of Websocket URLs to bootstrap the PeerRelay network, e.g. `'wss://peer-relay-now-vpleytitgb.now.sh:443,wss://peer-relay-now-ewtvbrtgkp.now.sh:443'`
