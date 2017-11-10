@@ -8,7 +8,7 @@ if(process.env.BOOT) {
 }
 
 var peer = new PeerRelay({
-	host: process.env.NOW_URL,
+	host: process.env.NOW_URL.slice('https://'.length),
 	port: process.env.PORT || 80,
 	bootstrap: bootstrap
 });
