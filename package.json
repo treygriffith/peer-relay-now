@@ -1,0 +1,29 @@
+{
+  "name": "peer-relay-now",
+  "version": "1.0.0",
+  "description": "PeerRelay deployment for running on now.sh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "now",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/treygriffith/peer-relay-now"
+  },
+  "keywords": [
+    "peer",
+    "peerrelay",
+    "p2p",
+    "websockets",
+    "webrtc",
+    "now",
+    "now.sh"
+  ],
+  "author": "Trey Griffith <trey@tgriff3.com>",
+  "license": "MIT",
+  "dependencies": {
+    "peer-relay": "treygriffith/peer-relay"
+  }
+}
