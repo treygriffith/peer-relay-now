@@ -1,6 +1,6 @@
 {
   "name": "peer-relay-now",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "PeerRelay deployment for running on now.sh",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   "author": "Trey Griffith <trey@tgriff3.com>",
   "license": "MIT",
   "dependencies": {
+    "electron-webrtc": "^0.3.0",
     "peer-relay": "treygriffith/peer-relay"
   }
 }
